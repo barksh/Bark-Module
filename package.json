@@ -12,15 +12,18 @@
     "url": "https://github.com/BarkSH/Bark-Module/issues"
   },
   "homepage": "https://github.com/BarkSH/Bark-Module#readme",
+  "peerDependencies": {
+    "@sudoo/marked": "*"
+  },
   "dependencies": {
     "@barksh/io": "^2.0.0",
     "@barksh/platform": "^2.0.0",
-    "@barksh/preference": "^2.0.0",
-    "@sudoo/marked": "^1.8.4"
+    "@barksh/preference": "^2.0.0"
   },
   "devDependencies": {
     "@sudoo/build-utils": "^1.0.0",
     "@sudoo/license": "^1.1.0",
+    "@sudoo/marked": "^1.8.4",
     "@sudoo/triforce": "^2.17.0"
   },
   "nyc": {
