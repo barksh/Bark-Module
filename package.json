@@ -1,0 +1,41 @@
+{
+  "name": "@barksh/module",
+  "version": "2.0.0",
+  "description": "Module Support",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarkSH/Bark-Module.git"
+  },
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BarkSH/Bark-Module/issues"
+  },
+  "homepage": "https://github.com/BarkSH/Bark-Module#readme",
+  "dependencies": {
+    "@barksh/io": "^2.0.0",
+    "@barksh/platform": "^2.0.0",
+    "@barksh/preference": "^2.0.0",
+    "@sudoo/marked": "^1.8.4"
+  },
+  "devDependencies": {
+    "@sudoo/build-utils": "^1.0.0",
+    "@sudoo/license": "^1.1.0",
+    "@sudoo/triforce": "^2.17.0"
+  },
+  "nyc": {
+    "extension": [
+      ".ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "instrument": true,
+    "reporter": [
+      "json",
+      "text-summary"
+    ],
+    "report-dir": "coverage",
+    "sourceMap": true
+  }
+}
