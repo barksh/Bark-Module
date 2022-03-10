@@ -16,7 +16,7 @@
     "@sudoo/marked": "*"
   },
   "dependencies": {
-    "@barksh/io": "^2.0.0",
+    "@barksh/io": "^2.0.1",
     "@barksh/platform": "^2.0.0",
     "@barksh/preference": "^2.0.0"
   },
